@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp Brightness Control</title>
+    <link rel="stylesheet" href="switch.css">
+</head>
+<body>
+    <div class="lamp">
+        <div class="lamp-light"></div>
+    </div>
+    <input type="range" id="brightness" min="0" max="100" value="50">
+    <label for="brightness">Adjust Brightness</label>
+
+    <script src="script.js">
+        document.addEventListener('DOMContentLoaded', () => {
+    const lampLight = document.querySelector('.lamp-light');
+    const brightnessInput = document.getElementById('brightness');
+
+    brightnessInput.addEventListener('input', (event) => {
+        const brightness = event.target.value;
+        lampLight.style.backgroundColor = `rgba(255, 255, 255, ${brightness / 100})`;
+    });
+});
+
+    </script>
+</body>
+</html>

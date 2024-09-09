@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		/* style the element with id ="myheader" */
+	#myheader{background-color:lightblue;
+		      color:black;
+		      padding:40px;
+		      text-align:center;
+              }
+        /* style all elements with the class name"city" */
+       .city{background-color:tomato;
+             color:white;
+              padding:10px;}      
+          </style>
+	<body>
+		<!-- All element with a unique id-->
+		<h1 id="myheader">My header</h1>
+		<!--Multiple elements with same class-->
+		<h2 class="city">London</h2>
+		<p> London is the capital of england.</p>
+		<h2 class="city">paris</h2>
+		<p> Paris is the capital of france.</p>
+
+		<h2>get element by</h2>
+		<script>
+			function displayResult(){ document.getelementbyid("myheader"). innerHTML = "Have a nice day!";
+		}
+	</script>
+	</body>
+	</html>

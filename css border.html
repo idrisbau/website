@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.all{border:#000000 4px solid;
+		     border-top-style:dashed;
+		     border-top-color:navy;
+		     border-width:thin;
+		     border-bottom-width:10px;}
+		 .bottom{border-bottom-style:solid;
+		         border-bottom-color:red;}
+		 .rounded{border:#000000 4px solid;
+		          border-radius:10px;}
+		 .left{border-right-style:solid;
+		       border-color:blue;
+		       background-color:green;}
+		  .opacity{opacity:0.3;
+		           font-weight:bold;}
+		  .rgba{background-color:rgba(0,128,0,0.4);
+		        font-weight:bold;}
+		    #header{text-align:center;
+		       background-color:navy;
+		            color:white;}
+		     #M{text-align:center;
+		     	background-color:navy;
+		     	color:white;
+		     	margin:50px 70px/*50px top and bottom, 70px right and left*/;
+		         padding:10px 20px 30px 40px /*10px top, 20px right, 30px bottom, 40px left */;}
+		     .outline{border:3px solid rgb(0,0,0);
+		     	      outline-style:groove;
+		              outline-color:red;
+		              outline-width:20px 13px;
+		              outline-offset:15px; }
+		         div{border:3px solid #f12ae1;
+		         	 padding:10px;
+		         	 color:purple;
+		         	 text-transform:capitalize;
+		         	 text-indent:50px;
+		         	 letter-spacing:2px;
+		         	 line-height:1.2;
+		         	 word-spacing:5px;
+		         	 white-spacing:nowrap;
+		         	 text-shadow:2px 2px 5px red;
+		             }
+		          a{text-decoration-line:underline;
+		            text-decoration-color:navy;
+		            text-decoration-style:double;} 
+		       .font{font-family:courier new;
+		             font-style:normal;
+		             font-weight:bold;
+		             font-variant:small-caps;
+		             font-size:1.2em;}  
+
+	</style>
+<body>
+	
+<h2 id="header">CSS BORDER/CSS MARGIN</h2>
+
+<p> The css border property allow you to specify the style,width and color of an element.
+    <hr>
+    </p>
+    <p class="all"> i have borders on all sides.</p>
+    <p class="bottom"> i have a red bottom border.</p>
+    <p class="rounded"> i have rounded borders.</p>
+    <p class="left"> i have a blue left border.</p>
+    <div class="opacity">
+    	<pre>
+    	 i have borders on all sides.
+         i have a red bottom border.
+         i have rounded borders.
+         i have a blue left border.
+     </pre>
+    </div>
+
+     <div class="rgba">																																		
+     	<pre>
+    	i have borders on all sides.
+        i have a red bottom border.
+        i have rounded borders.
+        i have a blue left border.
+    </pre>
+    </div>
+
+    <h2 id="M"> CSS MARGIN</h2>
+    <p>Margins are use to create space around elements, outside of any defined borders.</p>
+
+    <h2>CSS OUTLINE</h2>
+    <p class="outline"> The css outline is a line drawn outside the element's border.<br>
+    	  <span style="font-weight:bold;">css has the following outline properties</span><br>
+    	  <ul style="list-style-type:square">
+    	  	<li>outline style</li>
+    	  	<li>outline width</li>
+    	  	<li>outline color</li>
+    	  	<li>outline offset</li>
+    	  </ul>
+    	</p>
+    	<p><strong>note</strong>: outline differs from borders! unlike border, the outline is drawn outline the elements border, and may overlap other content.</p>
+
+        
+        <h2>CSS TEXT</h2>
+    	<div>
+    	<p>I am very excited about the HEAD OF SECURITY position that you have posted. and I hope that you will consider me a top candidate for the job.  I have worked as a Security officer at National Electric Power Authority (NEPA). In addition I also have a degree in BSc in Computer Science Education.
+However, another very important aspect of the job is customer service. I have a calm, pleasant personality that helps to make staffs feel comfortable and safe, which is very important in this business. Staffs expect and deserve to be escorted by someone who is friendly but professional at all times. So I have the ability to help establish a good working relationship with organization I serve.
+Perhaps I believe that I would be an excellent addition to your team, and I look forward to bringing my professionalism, courtesy and commitment to service to your organization. As we progress further along in the hiring process, it is my hope that I will be able to demonstrate my skills to you. I look forward to discussing this with you further. I hereby attached photocopies of my docoments+ <a href="https://www.w3schools.com"/
+                                                                  title="HTML Section"
+                                                                  target="_blank">w3school Tutorials</a>
+</p></div>
+
+<p class="font">Perhaps I believe that I would be an excellent addition to your team, and I look forward to bringing my professionalism, courtesy and commitment to service to your organization. As we progress further along in the hiring process, it is my hope that I will be able to demonstrate my skills to you. I look forward to discussing this with you further. I hereby attached photocopies of my docoments.</p>
+
+<h3 style="font-size:10vw;">Hello World</h3>
+
+
+</body>
+</html>    

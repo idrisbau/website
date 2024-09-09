@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<style>
+		.city{background-color:navy;
+			  color:white;
+			  border:2px solid black;
+			  margin:20px;
+			  padding:20px;
+		      }
+
+		  .note{font-size:120%;
+		      color:red;}
+		  </style>
+	<body>
+		<div class="city">
+			<h2>London</h2>
+			<p>London is the capital city of Englang. It is the most populous city in the united kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+		</div>
+
+		<div class="city">
+			<h2>Paris</h2>
+			<p>London is the capital city of Englang. It is the most populous city in the united kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+		</div>
+
+		<div class="city">
+			<h2>Tokyo</h2>
+			<p>London is the capital city of Englang. It is the most populous city in the united kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+		</div>
+
+		<h1>My <span class="note"> Important</span> Heading</h1>
+		<p>This is some <span class="note">Important</span> Text.</p>
+
+		<h1>Use of the class attribute in javascript</h1>
+		<p>click the button to hide all elements with class name"City":</p>
+		<button onclick="myfunction()">Hide element</button>
+
+		<h3 class="city">London</h3>
+			<p>London is the capital city of Englang. It is the most populous city in the united kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+
+			<h3 class="city">Tokyo</h3>
+			<p>London is the capital city of Englang. It is the most populous city in the united kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+
+			<h3 class="city">Paris</h3>
+			<p>London is the capital city of Englang. It is the most populous city in the united kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+
+			<p>
+
+				<img src="img_girl.jpg" alt="girl in a jacket"
+			     width="300" height="400">
+			 </p>
+
+			<script>
+			function myfunction() {
+				var x = document.getelementsByClassName("city");
+			  for(var i = 0; i < x. length; i++) {x[i].style.display ="none";}
+			}
+	</script>
+
+	</body>
+	</html>
+
